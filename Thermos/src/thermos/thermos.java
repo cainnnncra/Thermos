@@ -19,7 +19,8 @@ public class thermos {
 	            this.availableVolume -= volume;
 	            System.out.println("Added " + volume + " litres of " + this.liquid + " into the thermos.");
 	        } else {
-	            System.out.println("Thermos does not have enough space for this volume of liquid.");
+	            System.out.println("Thermos 
+				       not have enough space for this volume of liquid.");
 	        }
 	    }
 
