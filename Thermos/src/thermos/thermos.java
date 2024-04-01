@@ -33,7 +33,7 @@ public class thermos {
 
 	    // Main method for testing
 	    public static void main(String[] args) {
-	        thermos myThermos = new Thermos("Godrej", "orange juice");
+	        thermos myThermos = new thermos("Godrej", "orange juice");
 	        myThermos.displayDetails();
 	        myThermos.addLiquid(0.5);
 	        myThermos.addLiquid(0.7);
